@@ -1,7 +1,7 @@
 # Define your two numbers
 num1 = 15
 num2 = 25
-num3 = 35
+
 
 # Put them in a list
 numbers = [num1, num2]
