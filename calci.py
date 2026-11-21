@@ -1,9 +1,9 @@
-# Take input from the user
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+# Define the numbers
+num1 = 5
+num2 = 7
 
-# Add the two numbers
-total = num1 + num2
+# Add them together
+result = num1 + num2
 
-# Display the result
-print(f"The sum of {num1} and {num2} is {total}")
+# Print the result
+print(result)
