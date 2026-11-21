@@ -1,16 +1,9 @@
-# Define your two numbers
-num1 = 15
-num2 = 25
+# Take input from the user
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
 
-# Put them in a list
-numbers = [num1, num2]
-
-
-total_sum = 0
-
-# Loop through the list and add each number to the total
-for num in numbers:
-    total_sum += num
+# Add the two numbers
+total = num1 + num2
 
 # Display the result
-print(f"The sum of {num1} and {num2} is: {total_sum}")
+print(f"The sum of {num1} and {num2} is {total}")
